@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run buildReact",
+  "outputDirectory": "build",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
