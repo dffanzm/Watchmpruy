@@ -1,8 +1,7 @@
-# WatchParty
+# Watchmpruy
 
-![screenshot](https://github.com/howardchung/watchparty/raw/master/public/screenshot_full.png)
-
-A website for watching videos together.
+A custom WatchParty clone set up for watching streaming movies like Cinejoy seamlessly with friends!
+Deployed via Vercel with automated CI/CD.
 
 ## Description
 
