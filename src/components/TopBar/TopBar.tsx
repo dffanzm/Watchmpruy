@@ -115,14 +115,12 @@ export class SignInButton extends React.Component<SignInButtonProps> {
             closeModal={() => this.setState({ isLoginOpen: false })}
           />
         )}
-        {config.VITE_FIREBASE_CONFIG && (
-          <Button
-            leftSection={<IconLogin />}
-            onClick={() => this.setState({ isLoginOpen: true })}
-          >
-            Sign in
-          </Button>
-        )}
+        <Button
+          leftSection={<IconLogin />}
+          onClick={() => this.setState({ isLoginOpen: true })}
+        >
+          Sign in
+        </Button>
       </React.Fragment>
     );
   }
